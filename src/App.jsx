@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
-import { calculateTotalPrice } from "./utils/calculateTotalPrice";
 import { useSkips } from "./hooks/useSkips";
 import DarkModeToggle from "./components/DarkModeToggle";
 import SkipCard from "./components/SkipCard";
