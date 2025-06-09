@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { calculateTotalPrice } from "../utils/CalculateTotalPrice";
+import { calculateTotalPrice } from "../utils/calculateTotalPrice";
 
 const BottomBar = ({ darkMode, selectedSkip }) => (
   <div
