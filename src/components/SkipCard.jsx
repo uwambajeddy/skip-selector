@@ -1,6 +1,6 @@
 import React from "react";
 import { Check, AlertTriangle, Truck, Calendar } from "lucide-react";
-import { calculateTotalPrice } from "../utils/CalculateTotalPrice";
+import { calculateTotalPrice } from "../utils/calculateTotalPrice";
 import { getSkipRecommendation } from "../utils/getSkipRecommendation";
 
 const SkipCard = ({ skip, isSelected, onSelect, darkMode }) => {
